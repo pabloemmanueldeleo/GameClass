@@ -1,45 +1,11 @@
 import random
-from Character import Character
 from Fabric import Fabric
 
-players={
-    {"name":"Pablo","color":"yellow",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     },
-    
-    {"name":"Matt","color":"cyan",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     },
-    
-    {"name":"Ishan","color":"red",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     },
-    
-    {"name":"Vittorio","color":"purple",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     },
-    
-    {"name":"Giacomo","color":"blue",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     },
-    
-    {"name":"Piotr","color":"green",
-     "skills":[("attack", 10),
-               ("attack_kamehameha", 20)]
-     }
-    }
 
-bots={"Cliring": "yellow",
-         "Bulma": "cyan",
-         "Krillin": "red",
-         "Piccolo": "purple",
-         "Gohan": "blue",
-         "Trunks": "green"}
+players = Fabric.load_players()
+# print(players)
+
+
 
 for player in players:
     player = player["name"]

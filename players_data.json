@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Pablo",
+        "color": "yellow",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    },
+    {
+        "name": "Matt",
+        "color": "cyan",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    },
+    {
+        "name": "Ishan",
+        "color": "red",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    },
+    {
+        "name": "Vittorio",
+        "color": "purple",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    },
+    {
+        "name": "Giacomo",
+        "color": "blue",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    },
+    {
+        "name": "Piotr",
+        "color": "green",
+        "skills": {
+            "attack": 10,
+            "attack_kamehameha": 20
+        }
+    }
+]
